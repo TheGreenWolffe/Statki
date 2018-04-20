@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1524205782 source:c:\users\s41stanowisko11\desktop\statki\main.cpp
+	<iostream>
+	"menu.cpp"
+
+1524205416 c:\users\s41stanowisko11\desktop\statki\menu.h
+
+1524206292 c:\users\s41stanowisko11\desktop\statki\menu.cpp
+	<iostream>
+	<windows.h>
+
