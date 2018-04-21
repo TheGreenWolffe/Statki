@@ -9,3 +9,11 @@
 	<iostream>
 	<windows.h>
 
+1524300513 source:c:\github\statki\statki\main.cpp
+	<iostream>
+	"menu.cpp"
+
+1524301219 c:\github\statki\statki\menu.cpp
+	<iostream>
+	<windows.h>
+
