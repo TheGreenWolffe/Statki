@@ -1,7 +1,7 @@
 #include <iostream>
 #include <windows.h>
 
-
+#include "rozgrywka.cpp"
 using namespace std;
 
 extern char planSI[10][10];
@@ -76,6 +76,7 @@ void start()
 switch( wybor)
 {
 case 1:
+    tutorial();
     system("cls");
     break;
 
@@ -96,7 +97,6 @@ default:
 //menu glowne
 void menu(){
     int wybor;
-    wypplan(planSI);
     cout<<"1.Start"<<endl<<"2.Exit"<<endl;
     cin>>wybor;
 switch( wybor)

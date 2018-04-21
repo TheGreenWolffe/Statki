@@ -5,8 +5,7 @@
 
 using namespace std;
 
-char planSI[10][10];
-
+char planSI[10][10],planPLS[10][10];
 void genplan();
 
 void genplan()
@@ -19,6 +18,7 @@ void genplan()
         for(int j = 0; j < 10; j++)
         {
             planSI[i][j]=' ';
+            planPLS[i][j]=' ';
         }
 
     }
