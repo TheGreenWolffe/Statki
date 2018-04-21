@@ -14,34 +14,6 @@ void pojedynek();
 void start();
 void menu();
 
-//wybor poziomu trudnosci dla gracz vs komp
-void PvS()
-{
-    int wybor;
-    cout<<"1.Easy"<<endl<<"2.Normal"<<endl<<"3.Hard"<<endl<<"4.Wroc";
-    cin>>wybor;
-switch( wybor)
-{
-case 1:
-    system("cls");
-    break;
-
-case 2:
-    system("cls");
-    break;
-case 3:
-    system("cls");
-    break;
-case 4:
-    system("cls");
-    pojedynek();
-    break;
-default:
-    break;
-}
-}
-
-
 //wybor pojedynku gracz vs gracz/komp
 void pojedynek()
 {
