@@ -14,12 +14,12 @@
 	"menu.cpp"
 	"Plansza.cpp"
 
-1524331483 c:\github\statki\statki\menu.cpp
+1524342242 c:\github\statki\statki\menu.cpp
 	<iostream>
 	<windows.h>
 	"rozgrywka.cpp"
 
-1524337854 c:\github\statki\statki\plansza.cpp
+1524337868 c:\github\statki\statki\plansza.cpp
 	<iostream>
 	<cstdlib>
 	<time.h>
@@ -30,7 +30,9 @@
 	<cstdlib>
 	<time.h>
 
-1524328572 c:\github\statki\statki\rozgrywka.cpp
+1524342336 c:\github\statki\statki\rozgrywka.cpp
 	<iostream>
 	<cstdlib>
+	<ctime>
+	<time.h>
 

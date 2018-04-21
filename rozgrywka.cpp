@@ -7,7 +7,7 @@
 using namespace std;
 
 
-
+extern void wypDwieplan(char plansza[10][10],char plan[10][10]);
 extern char planPLS[10][10];
 extern char planSI[10][10],planSIs[10][10],planPL[10][10];
 extern void wypplan(char plansza[10][10]);
@@ -79,7 +79,7 @@ void PVSI()
     char y,ySI;
     cout << "Informacje o poprzednim strzale: " << "Brak" << endl;
     cout << "Mapa strzalow" << endl;
-    wypplan(planPLS);
+    wypDwieplan(planPLS,planSIs);
     cout << "Podaj kordynacje strzalu (po kazdym parametrze w przedziale <1,duze A-J>  enter): " << endl;
     cin >> x;
     cin >> y;
@@ -90,7 +90,7 @@ void PVSI()
         strzal(x,y,statki);
         cout << endl;
         cout << "Mapa strzalow" << endl;
-        wypplan(planPLS);
+        wypDwieplan(planPLS,planSIs);;
         cout << "Podaj kordynacje strzalu (po kazdym parametrze enter): " << endl;
         cin >> x;
         cin >> y;
@@ -101,7 +101,7 @@ void PVSI()
 
     cout << endl;
     cout << "Mapa wroga" << endl;
-    wypplan(planSIs);
+    wypDwieplan(planPLS,planSIs);
     do
     {
         system("cls");
@@ -109,7 +109,7 @@ void PVSI()
         strzalSI(xSI,ySI,statkiSI);
         cout << endl;
         cout << "Mapa wroga" << endl;
-        wypplan(planSIs);
+        wypDwieplan(planPLS,planSIs);
         cout << "Kordynacje podane przez komputer: "<< xSI << ySI << endl;
         x=rand()%10;
         y=rand()%10;

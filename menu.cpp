@@ -27,6 +27,7 @@ case 1:
     break;
 
 case 2:
+    PVSI();
     system("cls");
     break;
 case 3:

@@ -17,7 +17,6 @@ extern void wypDwieplan(char plansza[10][10],char plan[10][10]);
 int main()
 {
     do{
-            wypDwieplan(planPL,planSI);
         genplan();
         menu();
     }while(!koniec);
