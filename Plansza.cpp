@@ -203,3 +203,34 @@ void wypplan(char plansza[10][10])
     cout<<"+---------------------+"<<endl;
 
 }
+
+
+void wypDwieplan(char plansza[10][10],char plan[10][10])
+{
+    cout<<"  |A|B|C|D|E|F|G|H|I|J|            |A|B|C|D|E|F|G|H|I|J|"<<endl;
+    cout<<"--+-+-+-+-+-+-+-+-+-+-+          --+-+-+-+-+-+-+-+-+-+-+"<<endl;
+    for(int i = 0; i < 10; i++)
+    {
+        cout<<i+1;
+        if(i+1<10)
+        {
+            cout<<" ";
+        }
+        for(int j = 0; j < 10; j++)
+        {
+            cout<<"|"<<plansza[i][j];
+        }
+        cout<<"|          "<<i+1;
+        if(i+1<10)
+        {
+            cout<<" ";
+        }
+        for(int j = 0; j < 10; j++)
+        {
+            cout<<"|"<<plan[i][j];
+        }
+        cout<<"|"<<endl;
+    }
+    cout<<"+---------------------+          +---------------------+"<<endl;
+
+}

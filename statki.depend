@@ -9,7 +9,7 @@
 	<iostream>
 	<windows.h>
 
-1524332315 source:c:\github\statki\statki\main.cpp
+1524337729 source:c:\github\statki\statki\main.cpp
 	<iostream>
 	"menu.cpp"
 	"Plansza.cpp"
@@ -19,7 +19,7 @@
 	<windows.h>
 	"rozgrywka.cpp"
 
-1524335157 c:\github\statki\statki\plansza.cpp
+1524337854 c:\github\statki\statki\plansza.cpp
 	<iostream>
 	<cstdlib>
 	<time.h>

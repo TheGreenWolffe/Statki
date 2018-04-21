@@ -13,9 +13,11 @@ extern void genplan();
 extern void wypplan(char plansza[10][10]);
 extern void menu();
 extern void wpiplan(char plasz[10][10]);
+extern void wypDwieplan(char plansza[10][10],char plan[10][10]);
 int main()
 {
     do{
+            wypDwieplan(planPL,planSI);
         genplan();
         menu();
     }while(!koniec);
