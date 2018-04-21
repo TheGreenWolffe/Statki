@@ -5,7 +5,7 @@
 
 using namespace std;
 
-char planSI[10][10],planPLS[10][10];
+char planSI[10][10],planPLS[10][10],planSIs[10][10],planPL[10][10];
 void genplan();
 
 void genplan()

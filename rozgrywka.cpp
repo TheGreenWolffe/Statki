@@ -7,7 +7,7 @@ using namespace std;
 
 
 extern char planPLS[10][10];
-extern char planSI[10][10];
+extern char planSI[10][10],planSIs[10][10],planPL[10][10];
 extern void wypplan(char plansza[10][10]);
 void strzal(int x,int y,int &statki)
 {
