@@ -9,11 +9,22 @@
 	<iostream>
 	<windows.h>
 
-1524300513 source:c:\github\statki\statki\main.cpp
+1524308135 source:c:\github\statki\statki\main.cpp
 	<iostream>
 	"menu.cpp"
+	"Plansza.cpp"
 
-1524301219 c:\github\statki\statki\menu.cpp
+1524308429 c:\github\statki\statki\menu.cpp
 	<iostream>
 	<windows.h>
+
+1524308076 c:\github\statki\statki\plansza.cpp
+	<iostream>
+	<cstdlib>
+	<time.h>
+
+1524305801 source:c:\github\statki\statki\plansza.cpp
+	<iostream>
+	<cstdlib>
+	<time.h>
 

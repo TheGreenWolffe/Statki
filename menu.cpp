@@ -1,13 +1,20 @@
 #include <iostream>
 #include <windows.h>
+
+
 using namespace std;
+
+extern char planSI[10][10];
+extern void wypplan(char plansza[10][10]);
+
+
 
 extern bool koniec;
 void pojedynek();
 void start();
 void menu();
 
-
+//wybor poziomu trudnosci dla gracz vs komp
 void PvS()
 {
     int wybor;
@@ -33,6 +40,9 @@ default:
     break;
 }
 }
+
+
+//wybor pojedynku gracz vs gracz/komp
 void pojedynek()
 {
     int wybor;
@@ -56,6 +66,8 @@ default:
 }
 }
 
+
+//wybor typu rozgrywki
 void start()
 {
     int wybor;
@@ -80,8 +92,11 @@ default:
 }
 }
 
+
+//menu glowne
 void menu(){
     int wybor;
+    wypplan(planSI);
     cout<<"1.Start"<<endl<<"2.Exit"<<endl;
     cin>>wybor;
 switch( wybor)
