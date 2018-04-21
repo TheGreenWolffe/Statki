@@ -76,8 +76,8 @@ void start()
 switch( wybor)
 {
 case 1:
-    tutorial();
     system("cls");
+    tutorial();
     break;
 
 case 2:
