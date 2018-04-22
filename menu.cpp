@@ -6,7 +6,7 @@ using namespace std;
 
 extern char planSI[10][10];
 extern void wypplan(char plansza[10][10]);
-
+extern void PVP();
 
 
 extern bool koniec;
@@ -24,11 +24,13 @@ switch( wybor)
 {
 case 1:
     system("cls");
+    PVP();
     break;
 
 case 2:
-    PVSI();
+
     system("cls");
+    PVSI();
     break;
 case 3:
     system("cls");

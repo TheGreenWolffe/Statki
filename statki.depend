@@ -36,3 +36,25 @@
 	<ctime>
 	<time.h>
 
+1524420368 source:c:\users\jacek\desktop\statki-master\main.cpp
+	<iostream>
+	"menu.cpp"
+	"Plansza.cpp"
+
+1524420540 c:\users\jacek\desktop\statki-master\menu.cpp
+	<iostream>
+	<windows.h>
+	"rozgrywka.cpp"
+
+1524423927 c:\users\jacek\desktop\statki-master\rozgrywka.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<time.h>
+
+1524420319 c:\users\jacek\desktop\statki-master\plansza.cpp
+	<iostream>
+	<cstdlib>
+	<time.h>
+	<conio.h>
+
