@@ -1,0 +1,7 @@
+﻿  Plansza.cpp
+c:\users\jacek\source\repos\rycerze i statki\rycerze i statki\plansza.cpp(65): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+c:\users\jacek\source\repos\rycerze i statki\rycerze i statki\plansza.cpp(113): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  Rycerze.cpp
+  Generowanie kodu...
+c:\users\jacek\source\repos\rycerze i statki\rycerze i statki\plansza.cpp(45): warning C4715: "CanBePlaced”: niewszystkie ścieżki kodu zwracają wartość
+  rycerze i statki.vcxproj -> C:\Users\Jacek\source\repos\rycerze i statki\Debug\rycerze i statki.exe
